@@ -18,13 +18,13 @@ fix.html
 <!DOCTYPE html>
 <html>
 <body>
- <script src=”script.js”></script>
+ <script src="script.js"></script>  // The Quotes are the culprit.
 </body>
 </html>
 
 scripts.js
-//alert(“I’m invoked!”); The Quotes are the culprit.
-alert("“I’m invoked!”");
+
+alert(“I’m invoked!”);
 
 3. Explain the below how it works
 explain.html
